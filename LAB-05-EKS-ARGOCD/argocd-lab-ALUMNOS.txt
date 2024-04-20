@@ -11,6 +11,8 @@ Añadimos el repo de Helm
 helm repo list
 -Agregar Repo, luego verificar con el comando de arriba
 helm repo add argo https://argoproj.github.io/argo-helm
+helm repo add stable https://charts.helm.sh/stable
+
 
 -Descargar chart con comando pull para descargar  del repositorio e instalarlo, ver ultima versión disponible si no usar la del tutorial.
 
