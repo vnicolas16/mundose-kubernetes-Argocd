@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: apache-php
-        image: maldoariel/miapp-server:v1
+        image: maldoariel/php-test
         ports:
         - containerPort: 80
