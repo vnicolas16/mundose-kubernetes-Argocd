@@ -18,6 +18,11 @@ spec:
       volumeMounts:
         - mountPath: "/usr/share/nginx/html"
           name: nginx-storage
+        volumes:
+        - name: html-volume
+          configMap:
+            name: my-html-configmap
+            defaultMode: 420
 
 ---
 apiVersion: v1
